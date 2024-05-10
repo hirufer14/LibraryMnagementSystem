@@ -13,25 +13,25 @@
         android:theme="@style/Theme.LibrarySystem"
         tools:targetApi="31">
         <activity
-            android:name="UpdateMemberActivity"
+            android:name=".UpdateMemberActivity"
             android:exported="true" />
         <activity
-            android:name="UpdateBookActivity"
+            android:name=".UpdateBookActivity"
             android:exported="true" />
         <activity
-            android:name="AddMemberActivity"
+            android:name=".AddMemberActivity"
             android:exported="true" />
         <activity
-            android:name="AddBookActivity"
+            android:name=".AddBookActivity"
             android:exported="true" />
         <activity
-            android:name="MemberManagementActivity"
+            android:name=".MemberManagementActivity"
             android:exported="true" />
         <activity
-            android:name="BookManagementActivity"
+            android:name=".BookManagementActivity"
             android:exported="true" />
         <activity
-            android:name="AuthenticationActivity"
+            android:name=".AuthenticationActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -45,3 +45,4 @@
     </application>
 
 </manifest>
+

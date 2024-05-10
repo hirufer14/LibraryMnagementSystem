@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="MainActivity">
+    android:background="@drawable/two"
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -23,7 +24,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="navigateToAddMember"
-                android:text="Add Member" />
+                android:text="Add Member"
+                android:backgroundTint="@android:color/holo_orange_dark"/>
         </FrameLayout>
 
         <FrameLayout
@@ -36,7 +38,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="navigateToAddBook"
-                android:text="Add Book" />
+                android:text="Add Book"
+                android:backgroundTint="@android:color/holo_orange_dark"/>
         </FrameLayout>
 
     </LinearLayout>
@@ -55,19 +58,21 @@
                 android:id="@+id/btnViewMember"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/holo_orange_light"
                 android:onClick="navigateToViewMember"
                 android:text="View Member" />
         </FrameLayout>
 
         <FrameLayout
             android:layout_width="142dp"
-            android:layout_height="150dp"
+            android:layout_height="wrap_content"
             android:layout_margin="10dp">
 
             <Button
                 android:id="@+id/btnViewBook"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/holo_orange_light"
                 android:onClick="navigateToViewBook"
                 android:text="View Book" />
         </FrameLayout>

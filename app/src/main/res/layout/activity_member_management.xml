@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/bgd">
 
     <TextView
         android:id="@+id/textView2"
@@ -9,7 +11,8 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Click to Update"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        tools:ignore="VisualLintOverlap" />
 
     <ListView
         android:id="@+id/listViewMembers"
@@ -26,6 +29,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="16dp"
-        android:text="Add Member" />
+        android:text="Add Member"
+        android:backgroundTint="@android:color/holo_orange_light"/>
 
 </RelativeLayout>

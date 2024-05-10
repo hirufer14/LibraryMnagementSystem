@@ -14,7 +14,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 
-
 public class MemberManagementActivity extends AppCompatActivity {
 
     private DBHelper dbHelper;

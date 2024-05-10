@@ -8,6 +8,8 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 
+
+
 public class AuthenticationActivity extends AppCompatActivity {
 
     private EditText usernameEditText, passwordEditText;

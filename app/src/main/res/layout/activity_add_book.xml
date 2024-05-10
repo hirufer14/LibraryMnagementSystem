@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="AddBookActivity">
+    android:background="@drawable/bgd"
+    tools:context=".AddBookActivity">
 
     <EditText
         android:id="@+id/titleEditText"
@@ -38,6 +39,7 @@
         android:layout_below="@id/isbnEditText"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="24dp"
-        android:text="Add" />
+        android:text="Add"
+        android:backgroundTint="@android:color/holo_orange_light"/>
 
 </RelativeLayout>

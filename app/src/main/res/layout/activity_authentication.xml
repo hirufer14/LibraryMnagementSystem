@@ -5,20 +5,16 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context="AuthenticationActivity">
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Don't have an account?" />
+    android:background="@drawable/authentication"
+    tools:context=".AuthenticationActivity">
 
     <EditText
         android:id="@+id/usernameEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Username"
-        android:inputType="text" />
+        android:inputType="text"
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/passwordEditText"
@@ -26,7 +22,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:hint="Password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
 
     <Button
         android:id="@+id/registerButton"
@@ -34,14 +31,16 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Register"
-        android:onClick="register"/>
+        android:onClick="register"
+        android:backgroundTint="@android:color/holo_orange_dark"/>
 
     <Button
         android:id="@+id/loginButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:onClick="login"
         android:text="Login"
-        android:onClick="login"/>
+        android:backgroundTint="@android:color/holo_green_dark"/>
 
 </LinearLayout>
